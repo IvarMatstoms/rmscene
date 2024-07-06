@@ -123,7 +123,7 @@ class TextDocument:
                 properties["font-weight"] = "bold"
             elif code == 2:
                 properties["font-weight"] = "normal"
-            if code == 3:
+            elif code == 3:
                 properties["font-style"] = "italic"
             elif code == 4:
                 properties["font-style"] = "normal"
